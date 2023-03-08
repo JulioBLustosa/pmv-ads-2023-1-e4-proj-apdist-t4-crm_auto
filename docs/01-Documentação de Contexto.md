@@ -20,9 +20,14 @@ Portanto, o problema que se busca resolver com este projeto é a massiva dispers
 
 ## Objetivos
 
-O objetivo geral deste trabalho é a criação de um sistema CRM para oficinas mecânicas com uma orientação mais voltada para os mecânicos e o setor de relacionamento com o cliente,onde o mesmo terá acesso a aplicação mobile,gerando mais comodidade,flexibilidade e ajudando a agilizar o atendimento.O CRM ficará encarregado á emissão das propostas e fechamento destas dentro da própria plataforma,além de otimizar todo o trabalho relacionado à gestão de atendimento. Suas tarefas principais são organizar e registrar todos os dados coletados dos clientes ou prospects (futuros clientes) em sua memória. Além disso, fazer com o que o cliente tenha acesso por aplicativo mobile facilitará a construção de uma boa relação cliente\oficina.
+O objetivo geral deste trabalho é a criação de um sistema CRM para oficinas mecânicas com uma orientação mais voltada para os mecânicos e o setor de relacionamento com o cliente,onde o mesmo terá acesso a aplicação mobile,gerando mais comodidade,flexibilidade e ajudando a agilizar o atendimento.O CRM ficará encarregado á emissão das propostas e fechamento destas dentro da própria plataforma.
 
-Desta forma, é possível fazer com que os serviços de atendimento sejam mais produtivos, gerando não apenas lucro para a empresa como também engajamento da equipe de colaboradores,juntamente com o cliente.
+Como Obetivos específicos ,podemos ressaltar:
+
+# Fornecer ao cliente acesso fácil e completo ao orçamento sobre as demandas solicitadas para o reparo do seu veículo;
+# Manter o cliente bem informado ,com lembretes automáticos para revisões anuais do veículo;
+# Acompanhamento em tempo real dos serviços que serão realizados de acordo com a proposta da oficina;
+# Solicitar serviços extras
 
 ## Justificativa
 
