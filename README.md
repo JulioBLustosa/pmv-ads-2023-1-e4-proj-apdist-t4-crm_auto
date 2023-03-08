@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Júlio César Borges Lustosa
-* André
-* Arthur
-* Bruna
-* Mislene
-* Maxwell
+* Júlio Lustosa
+* André Vieira
+* Arthur Victor
+* Bruna Caroline
+* Mislene Tavares
+* Maxwell Ferreira
 
 ## Orientador
 
