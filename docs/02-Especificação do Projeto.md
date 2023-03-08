@@ -110,30 +110,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+![Diagrama1](../docs/img/func.png)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![Diagrama2](../docs/img/Gestor.png)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+## Matriz de Rastreabilidade de Requisitos
+Atualmente, observando os requisitos que foram levantados a matriz de rastreabilidade foi elaborada de forma a permitir aos profissionais a visualização da correlação entre os requisitos de software.
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+Atualmente, observando os requisitos que foram levantados a matriz de rastreabilidade foi elaborada de forma a permitir aos profissionais a visualização da correlação entre os requisitos de software.
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
+![image](https://user-images.githubusercontent.com/91098261/222275975-8908ad19-2308-49e7-8960-4f25996a746b.png)
+[Matriz de Rastreabilidade - CRM Auto.xlsx](https://github.com/Jcblustosa/crm-auto/files/10865661/Matriz.de.Rastreabilidade.-.CRM.Auto.xlsx)
 
 # Gerenciamento de Projeto
 
@@ -141,22 +130,40 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+![Gerenciamento de Projeto - Tempo](https://user-images.githubusercontent.com/91098261/220481449-063f7dcc-0d02-4076-ac89-8713aab22ede.png)
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+[Gerenciamento de Projeto - Tempo.xlsx](https://github.com/Jcblustosa/crm-auto/files/10798615/Gerenciamento.de.Projeto.-.Tempo.xlsx)
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+ O gerenciamento apropriado de tarefas contribuirá para que o projeto tenha um bom nível de produtividade. É fundamental que ocorra a gestão de tarefas e de pessoas, para que os profissionais envolvidos no projeto possam ser facilmente gerenciados.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+Membros do time: André, Júlio, Mislene, Bruna, Arthur e Maxwell
+
+Gerente de Projeto: Júlio
+Designer: Mislene
+Analista de Sistemas:Maxwell
+Arquiteta de Software:Bruna, Arthur
+Desenvolvedores:André, Júlio, Mislene, Bruna, Arthur e Maxwell
+Analista de Banco de Dados:Júlio, André
+Analista de Testes:Mislene, Bruna
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+<p align="justify">Os valores dos custos do projeto foram calculados com a estimativa de tempo de quatro meses, utilizando seis profissionais. Qualquer alteração de custos que ultrapassar a estimativa da linha de base deverá ser avaliada pelo cliente e gerente do projeto.</p>
+
+| Recursos Necessários | Valor         |
+| -------------------- | ------------- |
+| Recursos Humanos     | R$ 150.000,00 |
+| Software             | R$ 480,00     |
+| Serviços             | R$ 1.200,00   |
+| Total                | R$ 151.680,00 |
+
+<p align="justify">Cálculo:
+
+Recursos Humanos = 6 Profissionais x R$ 60,00/hora x 416 horas (4 meses) = R$ 150.000,00
+
+Softwares = 6 locações (windows, office) x R$ 20,00/Mês x 4 Meses = R$ 480,00
+
+Serviços = 6 despesas (energia, hospedagem) x R$ 50,00/Mês x 4 Meses = R$ 1.200,00.</p>
