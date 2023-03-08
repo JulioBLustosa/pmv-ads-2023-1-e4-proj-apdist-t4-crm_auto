@@ -1,46 +1,40 @@
 # Introdução
 
-  Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+ Em termos de qualidade dos serviços e atendimento ao cliente, o mercado automotivo tem se tornado cada vez mais competitivo. Antigamente, os donos de oficinas se preocupavam basicamente com a evolução do trabalho técnico oferecido. Hoje em dia, no entanto, é preciso ir além para alcançar o sucesso nessa área.
+
+Uma excelente ferramenta para otimizar esses processos é o software CRM (do inglês Customer Relationship Management) para oficina. Essa tecnologia ajuda a administração nas diversas tarefas de marketing e contato com o consumidor. Um de seus principais benefícios é melhor a experiência geral com os serviços prestados.
+
+Para ajudar nessas tarefas, o software CRM (do inglês Customer Relationship Management) entra para garantir a otimização dos processos. Ele proporciona, desta forma, uma gestão mais eficiente. Isso porque o sistema digital foi criado justamente para melhorar o atendimento aos clientes no longo prazo. Por meio de planejamentos direcionados a cada situação, é possível desenvolver todas as formas de relacionamento.
+
+O CRM é capaz de registrar todos os dados dos clientes, separando-os em grupos de acordo com os mais diferentes cenários. Com isso, a gestão da oficina consegue planejar ações específicas segundo as necessidades de cada grupo. Desta forma, é possível fazer com que os serviços de atendimento sejam mais produtivos, gerando não apenas lucro para a empresa como também engajamento da equipe de colaboradores.
+
+Assim torna-se fundamental a existência de ferramantas e mecanismos que permitam ao usuário acessar os seus dados ,serviços e produtos contratados. Neste contexto surge o CRM (Customer Relationship Management) como estratétia de negócio. O gerenciamento centrado na relação com clientes reperesenta uma solução viável para o estreitamento das relações entre clientes e oficinas,fomnetando confiança e criando um ambiente propício á fidelização de clientes . Isso ocorre com a organização de contas e contratos de forma acessível ,em tempo real ,acelerando e simplificando o processo de vendas. Dessa forma ,aumneta-se a qualidade do serviço ofertado ,bem como a satisfação do cliente.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Na prática, ainda são muitos os donos de oficinas que não priorizam a entrega de um atendimento realmente diferenciado, estabelecer laços duradouros e investir em mecanismos de marketing. O problema é que, com essa postura, muitos negócios não conseguem extrair ganhos produtivos de suas ações. Pois o software de gestão de relacionamento com o cliente veio para ajudar nessa questão.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Para que essa ferramenta cumpra sua função, no entanto, é necessário que a gestão da oficina desenvolva uma cultura de relacionamento. A esse respeito, é de grande importância que a administração trabalhe os aspectos práticos de relação com seu público. Neste sentido, é importante investir em mecanismos e estratégias que possibilitem conhecer melhor a clientela, desvendando todas as suas necessidades. Fora isso, todo o time deve estar devidamente preparado, apto a executar as ações previstas dentro da oficina.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Portanto, o problema que se busca resolver com este projeto é a massiva dispersão de informações em planilhas ou sistemas internos pouco flexíveis que prejudicam o acompanhamento das oportunidades. Nesse cenário, o CRM é uma solução excelente, prática e eficaz.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um sistema CRM para oficinas mecânicas com uma orientação mais voltada para os mecânicos e o setor de relacionamento com o cliente,onde o mesmo terá acesso a aplicação mobile,gerando mais comodidade,flexibilidade e ajudando a agilizar o atendimento.O CRM ficará encarregado á emissão das propostas e fechamento destas dentro da própria plataforma,além de otimizar todo o trabalho relacionado à gestão de atendimento. Suas tarefas principais são organizar e registrar todos os dados coletados dos clientes ou prospects (futuros clientes) em sua memória. Além disso, fazer com o que o cliente tenha acesso por aplicativo mobile facilitará a construção de uma boa relação cliente\oficina.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Desta forma, é possível fazer com que os serviços de atendimento sejam mais produtivos, gerando não apenas lucro para a empresa como também engajamento da equipe de colaboradores,juntamente com o cliente.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Ao empregar essa tecnologia CRM Automotivo na sua oficina, você conseguirá melhorar a execução dos processos internos. Isso porque o CRM elabora diretrizes específicas para cada tarefa, de acordo com os dados armazenados em seu sistema. Garantindo, assim, muito mais agilidade no cumprimento das tarefas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+É preciso destacar que, independentemente do tamanho da sua oficina mecânica, o trabalho de acompanhamento e análise dos serviços de cada cliente pode se mostrar bastante complicado sem o uso das ferramentas adequadas.Há diversas empresas onde os clientes podem buscar os produtos e serviços pelos quais se interessam. Encontrá-las está à distância de um clique com a internet. É possível pedir recomendações ou pesquisar diversos negócios na internet rapidamente. Além disso, também é possível acessar o mundo online para fazer elogios e reclamações, impulsionando ou atrapalhando os resultados de empreendimentos.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Por meio da utilização desse recurso, é possível lidar com as atuais demandas de serviços. Além de modelar o atendimento segundo o perfil do cliente moderno, que é cada vez mais exigente. Todo esse trabalho caminhará para aumentar a satisfação geral da clientela.Diante de todas essas particularidades de um mundo conectado, os donos de empresas têm se preocupado cada vez mais em garantir a satisfação do consumidor. Afinal, um problema não resolvido pode não apenas acarretar a perda de um cliente, mas provocar um marketing negativo sobre a imagem que o negócio vem construindo.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público alvo são as oficinas mecânicas automotivas que desejam ter uma plataforma que as mantenham sempre atualizados em relação aos serviços contratados pelos seus clientes, além de ser um canal de comunicação e lembretes para clientes, melhorando sua interação com o serviço,e na sua execução via mobile. Esta ferramenta permite o aprimoramento do atendimento ao cliente, ajudando mecânicos e gerentes comerciais a atingirem todo o seu potencial com mais produtividade e aproveitando seu tempo da melhor forma.
+É mais que perceptível, portanto, a importância de aprimorar a relação com o público alvo(oficinas mêcanicas) para obter sucesso no seu trabalho. E o CRM para oficina é um grande aliado desse objetivo! O segredo está em sempre procurar evoluir os serviços e a qualificação dos colaboradores. Além de nunca deixar de lado o investimento na qualidade do atendimento ao cliente.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
