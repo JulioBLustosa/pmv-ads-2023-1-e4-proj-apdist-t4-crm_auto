@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# CRM AUTO
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO DE DESENVOLVIMENTO DE APLICAÇÃO DISTRIBUIDA`
 
-`SEMESTRE`
+`4º SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Júlio César Borges Lustosa
+* André
+* Arthur
+* Bruna
+* Mislene
+* Maxwell
 
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Alves de Oliveira
 
 ## Instruções de utilização
 
