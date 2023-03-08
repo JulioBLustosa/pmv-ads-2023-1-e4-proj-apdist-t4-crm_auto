@@ -6,7 +6,7 @@
 
 `4º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Sistema de CRM que fará a gestão os processos relacionados ao veículo do cliente, mantendo-o informado em tempo real sobre o andamento dos serviços, orçamento e entre outros. O cliente obterá estas informações através de uma aplicação mobile, e gestão dos processos será feita pela oficina utilizando de uma aplicação web.
 
 ## Integrantes
 
