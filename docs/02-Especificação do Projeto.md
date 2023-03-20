@@ -43,8 +43,32 @@ Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
 ### BPMN
-
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/bpmn/diagram.svg
+
+## Cadastro de usuário e veículo
+
+![Cadastro Usuário e Veículo](https://user-images.githubusercontent.com/91098261/226222216-5a51e63c-8b51-4908-9c10-eebdeac552b6.png)
+
+##Login Usuário
+
+![Login usuário](https://user-images.githubusercontent.com/91098261/226222338-6a44c816-d2c4-40f4-998e-de3317836a7a.png)
+
+## Cadastro/Edição oficina
+
+![Cadastro de Oficina](https://user-images.githubusercontent.com/91098261/226222391-f9ea1583-b288-4aa5-a4b5-cf6c48c008a2.png)
+
+## Consultar cliente
+![Consulta de Cliente](https://user-images.githubusercontent.com/91098261/226222458-a689b459-fd70-41af-b347-33786fc6d903.png)
+
+## Criar/Editar OS
+
+![Ordem de Serviço](https://user-images.githubusercontent.com/91098261/226222534-bb12358e-8e4c-40a2-8e17-e763b3407cd4.png)
+
+## Emissão de lembretes
+
+
+![Emissão de lembrete](https://user-images.githubusercontent.com/91098261/226222605-85f82564-0fb4-4907-b710-2381969af676.png)
+
 
 ## Indicadores de Desempenho
 
