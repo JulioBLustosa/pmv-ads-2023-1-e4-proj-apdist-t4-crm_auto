@@ -77,14 +77,14 @@ As tabelas que a seguir apresentam os requisitos funcionais e não funcionais qu
 |-------|---|---|
 | RF-01 | O sistema deve permitir que os usuários façam cadastrado e login. | ALTA |
 | RF-02 | O sistema deve permitir que o cliente consulte os serviços através de uma aplicação mobile. | ALTA |
-| RF-03 | O sistema deve permitir o cadastro e a alteração da oficina. | ALTA       |
-| RF-04 | O sistema deve permitir o cadastro de um novo serviço disponibilizado pelas oficinas. | ALTA |
+| RF-03 | O sistema deve permitir a inserção, edição e exclusão de registros da oficina. | ALTA |
+| RF-04 | O sistema deve permitir a inserção, edição e exclusão de um novo serviço disponibilizado pela oficina. | ALTA |
 | RF-05 | O sistema deve permitir a consulta dos clientes cadastrados. | MÉDIO |
-| RF-06 | O sistema deve permitir o cadastro de veículo(s) para o cliente. | BAIXO |
+| RF-06 | O sistema deve permitir a inserção, edição e exclusão de veículo(s) para o cliente. | BAIXO |
 | RF-07 | O sistema deve permitir o acompanhamento do andamento de um serviço pelo cliente e a data prevista para finalização. | ALTA |
-| RF-08 | O sistema deve permitir a emissão de relatório contendo as informações dos serviços realizados pelas oficinas. | BAIXA |
-| RF-09 | O sistema deve emitir lembretes para os clientes após 11 meses desde a última revisão anual. | BAIXA |
-| RF-10 | O sistema deve permitir que o colaborador crie e edite ordens de serviço | ALTA |
+| RF-08 | O sistema deve emitir lembretes para os clientes após 11 meses desde a última revisão anual. | BAIXA |
+| RF-09 | O sistema deve permitir a inserção de uma nova ordem de serviço. | ALTA |
+| RF-10 | O sistema deve permitir a edição e exclusão de serviços de uma ordens de serviço em andamento. | ALTA |
 
 ### Requisitos não Funcionais
 
@@ -102,7 +102,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-| RE-01 | O projeto deverá ser entregue até o final do semestre|
+| RE-01 | O projeto deverá ser entregue até a data de 25/06/2023 |
 
 ## Diagrama de Casos de Uso
 
