@@ -23,8 +23,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Funcionário da oficina |Efetuar o cadastro, alteração e exclusão de oficinas no sistema |Que a gestão da oficina matriz e das oficinas filiais seja realizada de forma centralizada em um único sistema|
 |Funcionário da oficina | Efetuar o cadastro, alteração e exclusão de funcionários no sistema |Conseguir realizar a gestão dos meus funcionários de maneira facilitada|
 |Funcionário da oficina | Efetuar o cadastro, alteração e exclusão dos serviços disponibilizados pela oficina |Que seja possível incluir, alterar e excluir informações de um determinado serviço|
-|Funcionário da oficina| Gerar relatórios sobre os serviços realizados pela oficina| Obter informações relevantes da minha empresa|
-|Funcionário da oficina| Gerar relatórios sobre os funcionários da oficina | Obter informações relevantes dos meus funcionários|
 |Funcionário da oficina| Efetuar o cadastro, alteração e exclusão de clientes no sistema| Que seja possível incluir e alterar informações de um determinado cliente|
 |Funcionário da oficina| Consultar os clientes cadastrados no sistema| Conseguir realizar a gestão dos clientes de maneira otimizada|      
 |Funcionário da oficina |Realizar o cadastro de veículo (s) para um determinado cliente no sistema| Conseguir realizar a inclusão dos serviços solicitados para o veículo|
@@ -87,8 +85,6 @@ As tabelas que a seguir apresentam os requisitos funcionais e não funcionais qu
 | RF-08 | O sistema deve permitir a emissão de relatório contendo as informações dos serviços realizados pelas oficinas. | BAIXA |
 | RF-09 | O sistema deve emitir lembretes para os clientes após 11 meses desde a última revisão anual. | BAIXA |
 | RF-10 | O sistema deve permitir que o colaborador crie e edite ordens de serviço | ALTA |
-|       |                                                              |  |
-|       |                                                              |  |
 
 ### Requisitos não Funcionais
 
