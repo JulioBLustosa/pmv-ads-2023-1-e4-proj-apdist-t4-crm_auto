@@ -37,7 +37,29 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+**React:** Uma biblioteca JavaScript para construir interfaces de usuário dinâmicas e reativas.
+
+**C#:** uma linguagem de programação orientada a objetos desenvolvida pela Microsoft.
+
+**ASP.NET MVC:** Um framework para desenvolvimento de aplicativos da web usando o padrão Model-View-Controller (MVC).
+
+**Git e GitHub:** Um sistema de controle de versão distribuído e uma plataforma de hospedagem de repositórios de código-fonte, respectivamente.
+
+**VS Code:** Um editor de código-fonte gratuito e de código aberto desenvolvido pela Microsoft.
+
+
+**Descrição de como cada tecnologia será utilizda no projeto;**
+
+**React:** Será usado para desenvolver a interface do usuário do sistema de CRM.
+
+**C#:** Será usado para desenvolver a lógica de negócios e a camada de acesso a dados do sistema.
+
+**ASP.NET MVC:** Será usado para estruturar o projeto e implementar o padrão Model-View-Controller.
+
+**Git e GitHub:** Serão usados para gerenciar o código-fonte do projeto e permitir colaboração entre os membros da equipe.
+
+**VS Code:** Será usado como o ambiente de desenvolvimento integrado (IDE) principal para desenvolver o código-fonte do projeto.
+
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
@@ -54,15 +76,16 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+**Funcionalidade**: O software deve ser capaz de realizar todas as tarefas e funcionalidades necessárias para cumprir sua finalidade.
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+**Confiabilidade**: O software deve ser confiável e não deve apresentar falhas ou bugs que possam comprometer sua usabilidade ou segurança.
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+**Usabilidade**: O software deve ser fácil de usar e entender, garantindo uma boa experiência do usuário.
 
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+**Eficiência**: O software deve ser rápido e realizar as tarefas com rapidez e eficiência.
+
+**Manutenibilidade**: O software deve ser fácil de manter e atualizar, permitindo que correções e melhorias sejam realizadas com facilidade.
+
+**Portabilidade**: O software deve ser capaz de funcionar em diferentes plataformas e sistemas operacionais.
+
+O software será desenvolvido de acordo com as melhores práticas de engenharia de software, como o uso de metodologias ágeis, testes automatizados e revisão de código.
