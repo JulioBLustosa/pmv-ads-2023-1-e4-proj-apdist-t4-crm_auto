@@ -1,6 +1,7 @@
 # CRM AUTO
 
-![Logo-JPG](https://user-images.githubusercontent.com/91098261/229306567-f295ff16-eafe-4ac4-ba20-cbb3305c0ce2.jpg)
+![Logo-JPG-Curto](https://user-images.githubusercontent.com/91098261/229306615-15ae7939-20c1-490a-864f-8486e6e77a65.jpg)
+
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
