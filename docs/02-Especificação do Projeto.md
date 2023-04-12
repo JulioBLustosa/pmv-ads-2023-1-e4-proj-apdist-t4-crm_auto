@@ -91,7 +91,7 @@ As tabelas que a seguir apresentam os requisitos funcionais e não funcionais qu
 
 | ID    | Descrição do Requisito | PRIORIDADE |
 |-------|---|---|
-| RF-01 | O sistema deve permitir que os usuários façam cadastrado e login. | ALTA |
+| RF-01 | O sistema deve permitir que os usuários façam cadastro e login. | ALTA |
 | RF-02 | O sistema deve permitir que o cliente consulte os serviços através de uma aplicação mobile. | ALTA |
 | RF-03 | O sistema deve permitir a inserção, edição e exclusão de registros da oficina. | ALTA |
 | RF-04 | O sistema deve permitir a inserção, edição e exclusão de um novo serviço disponibilizado pela oficina. | ALTA |
