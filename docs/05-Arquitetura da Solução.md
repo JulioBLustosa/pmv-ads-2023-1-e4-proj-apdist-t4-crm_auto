@@ -4,7 +4,11 @@ Projeto de arquitetuta baseado em APIs.
 
 Quando falamos de uma arquitetura de APIs, estamos falando da estratégia de desenvolvimento baseada no uso dessas conexões entre aplicações, que podem servir para conectar os mais variados e distintos tipos de negócio, nichos de mercado e possibilidades. A figura a seguir concretiza o projeto de arquitetura baseado em APIs para a nossa aplicação de desenvolvimneto.
 
-https://www.canva.com/design/DAFfwVXz4Fs/IinIJukBvK8Lxt5XbuXpNg/edit?utm_content=DAFfwVXz4Fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+![REQUESTu (4)](https://user-images.githubusercontent.com/92118593/232350335-7c680fc1-34ba-4c7e-b597-930a9efaff7d.png)
+
+
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
