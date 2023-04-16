@@ -1,11 +1,10 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+Projeto de arquitetuta baseado em APIs.
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Quando falamos de uma arquitetura de APIs, estamos falando da estratégia de desenvolvimento baseada no uso dessas conexões entre aplicações, que podem servir para conectar os mais variados e distintos tipos de negócio, nichos de mercado e possibilidades. A figura a seguir concretiza o projeto de arquitetura baseado em APIs para a nossa aplicação de desenvolvimneto.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
-
+https://www.canva.com/design/DAFfwVXz4Fs/IinIJukBvK8Lxt5XbuXpNg/edit?utm_content=DAFfwVXz4Fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
