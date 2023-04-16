@@ -5,8 +5,7 @@ Projeto de Arquitetuta Baseado em APIs.
 Quando falamos de uma arquitetura de APIs, estamos falando da estratégia de desenvolvimento baseada no uso dessas conexões entre aplicações, que podem servir para conectar os mais variados e distintos tipos de negócio, nichos de mercado e possibilidades. A figura a seguir concretiza o projeto de arquitetura baseado em APIs para a nossa aplicação de desenvolvimento.
 
 
->-![image](https://user-images.githubusercontent.com/92118593/232350795-ea090b0f-6a5b-4ed4-aa35-1878eb2bc4ce.png)
-
+>-![image](https://user-images.githubusercontent.com/92118593/232350957-c5b9408f-6b6f-451b-b911-38590915a4d2.png)
 
 
 ## Diagrama de Classes
