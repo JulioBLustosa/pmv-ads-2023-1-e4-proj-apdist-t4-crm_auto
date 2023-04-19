@@ -135,6 +135,44 @@ body::before {
  }
 }
 
+/*Gestão de Atividades*/
+
+.texto-servicos{
+    margin-top: 15px;
+}
+
+#atualizacao{
+    background: var(--cor-principal);
+}
+
+.img-servicos{
+    max-width: 70%;
+}
+
+/*Mapa*/
+
+.mapa {
+    overflow: hidden;
+   
+    padding-bottom: 56.25%;
+   
+    position: relative;
+   
+    height: 0;
+   }
+   
+   .mapa iframe {
+    left: 0;
+   
+    top: 0;
+   
+    height: 100%;
+   
+    width: 100%;
+   
+    position: absolute;
+   }
+   
 /*Footer*/
 
 footer {
