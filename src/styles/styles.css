@@ -149,6 +149,10 @@ body::before {
     max-width: 70%;
 }
 
+/*Cientes*/
+#clientes{
+    background: var(--cor-principal);
+}
 /*Mapa*/
 
 .mapa {
