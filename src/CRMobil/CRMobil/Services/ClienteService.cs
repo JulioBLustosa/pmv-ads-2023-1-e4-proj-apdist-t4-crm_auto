@@ -16,7 +16,7 @@ namespace CRMobil.Services
 
             var mongoDatabase = mongoCollection.GetDatabase(serviceCollection.Value.DatabaseName);
 
-            _clienteServiceCollection = mongoDatabase.GetCollection<Clientes>(serviceCollection.Value.ClienteCollectionName);
+            _clienteServiceCollection = mongoDatabase.GetCollection<Clientes>(serviceCollection.Value.EntityCollectionName);
         }
 
         public async Task<List<Clientes>> GetAsync() => await _clienteServiceCollection.Find(_ => true).ToListAsync();

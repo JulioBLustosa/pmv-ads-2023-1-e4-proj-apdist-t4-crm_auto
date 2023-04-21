@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DuaVGTJOiGa4qnYLhKvCxDFMXY9Yy+gxYTE8Flce9kYQcvh1b6B/EQPgOKj+HrDsJqYR0SZezT4OPupVeinKAg==",
+  "dgSpecHash": "AGRsqFeUerfLsyitpR0bczkmMk8OqcPDzusWxERrNONmUF2PDtDb60uQ92C75YJa/s77od5flzAG42umO8Pz9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\julio.lustosa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\julio.lustosa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
