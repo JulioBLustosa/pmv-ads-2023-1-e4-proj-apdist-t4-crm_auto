@@ -54,7 +54,13 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
  
 ## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
+**Selenium:** Selenium é uma ferramenta de automação de testes de software que permite aos desenvolvedores e testadores automatizar ações repetitivas em um navegador da web.O Selenium é uma ferramenta poderosa e flexível para automação de testes de software web, permitindo aos testadores automatizar as tarefas repetitivas de teste, economizar tempo e recursos, aumentar a eficiência dos testes e melhorar a qualidade do software.
+
+**Postaman:** O Postman é uma aplicação de desktop que funciona em várias plataformas, como Windows, macOS e Linux. Ele oferece uma interface gráfica do usuário (GUI) intuitiva e fácil de usar que permite aos usuários criar solicitações HTTP e ver as respostas em tempo real. O Postman pode ser usado para enviar solicitações HTTP, como GET, POST, PUT, DELETE, PATCH, entre outros.
+
+Além de enviar solicitações HTTP, o Postman também pode ser usado para testar APIs de forma mais avançada, como definir cabeçalhos personalizados, autenticar solicitações, simular erros de rede, monitorar desempenho, entre outras funcionalidades.
+
+<!--Comente sobre as ferramentas de testes utilizadas.
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
@@ -62,4 +68,4 @@ Comente sobre as ferramentas de testes utilizadas.
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 > - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)--
