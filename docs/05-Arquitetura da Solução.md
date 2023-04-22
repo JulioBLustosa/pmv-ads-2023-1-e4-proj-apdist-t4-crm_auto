@@ -36,28 +36,16 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-**React:** Uma biblioteca JavaScript para construir interfaces de usuário dinâmicas e reativas.
+| Tecnologia   |                          Descrição                           |
+| ------------ | :----------------------------------------------------------: |
+| C#           | Linguagem de programação orientada a objetos desenvolvida pela Microsoft |
+| ASP.NET MVC  | Um framework para desenvolvimento de aplicativos da web usando o padrão Model-View-Controller (MVC). |
+| Git e GitHub | Um sistema de controle de versão distribuído e uma plataforma de hospedagem de repositórios de código-fonte, respectivamente. |
+| React        | Uma biblioteca JavaScript para construir interfaces de usuário dinâmicas e reativas. |
+| VS Code      | Ambiente de desenvolvimento integrado (IDE) principal para desenvolver o código-fonte do projeto. |
+| MongoDb      |      Software de banco de dados orientado a documentos       |
 
-**C#:** uma linguagem de programação orientada a objetos desenvolvida pela Microsoft.
-
-**ASP.NET MVC:** Um framework para desenvolvimento de aplicativos da web usando o padrão Model-View-Controller (MVC).
-
-**Git e GitHub:** Um sistema de controle de versão distribuído e uma plataforma de hospedagem de repositórios de código-fonte, respectivamente.
-
-**VS Code:** Um editor de código-fonte gratuito e de código aberto desenvolvido pela Microsoft.
-
-
-**Descrição de como cada tecnologia será utilizda no projeto;**
-
-**React:** Será usado para desenvolver a interface do usuário do sistema de CRM.
-
-**C#:** Será usado para desenvolver a lógica de negócios e a camada de acesso a dados do sistema.
-
-**ASP.NET MVC:** Será usado para estruturar o projeto e implementar o padrão Model-View-Controller.
-
-**Git e GitHub:** Serão usados para gerenciar o código-fonte do projeto e permitir colaboração entre os membros da equipe.
-
-**VS Code:** Será usado como o ambiente de desenvolvimento integrado (IDE) principal para desenvolver o código-fonte do projeto.
+<br/>
 
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
