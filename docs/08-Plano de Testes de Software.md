@@ -1,11 +1,22 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+<!-- <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.-->
 
+
+**Funcionalidades Avaliadas**
+
+**1**. Visualização do andamento do serviço<br>
+**2**. Adicionar um novo serviço<br>
+**3**. Enviar orçamento para o cliente<br>
+
+**Grupos de Usuários Envolvidos nos Testes**
+
+**1.** Clientes<br>
+**2.** Funcionários da oficina
 
 
 | Funcionalidade<br>Avaliada | Grupo de<br>usúarios | Cenário de Teste |Ferramentas Utilizadas|
@@ -13,6 +24,33 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |Visualização do<br>andamento do<br>serviço   |Clientes         |Cliente faz login no aplicativo móvel e<br>visualiza o status atual do serviço em<br>tempo real.|Selenium|         
 |Adicionar um<br>novo serviço|Funcionários<br>da oficina|Funcionário da oficina faz login na<br>aplicação web, adiciona um novo serviço<br>ao veículo do cliente e verifica se o status<br>do serviço é atualizado corretamente.|Selenium,<br>Postman|
 |Enviar orçamento<br>para o cliente|Funcionários<br>da oficina|Funcionário da oficina faz login na<br>aplicação web, gera um orçamento para o<br>serviço do veículo do cliente e envia o<br>orçamento para o cliente através do aplicativo móvel. O cliente verifica se o orçamento foi recebido corretamente.|Selenium,<br>Postman|
+
+**Estratégia de Testes**
+
+**Os testes serão realizados em duas fases:**
+ - Testes de unidade: Os desenvolvedores realizarão testes de unidade para garantir que<br>cada funcionalidade esteja funcionando corretamente individualmente.
+ - Testes de integração: Depois que todas as funcionalidades forem implementadas, serão realizados testes de integração para garantir que as diferentes partes do sistema estejam funcionando juntas de maneira adequada.
+ 
+ **Critérios de Aceitação**<br>
+ 
+ **Os seguintes critérios de aceitação foram definidos para cada cenário de teste:**<br>
+ 
+ **1.** Visualização do andamento do serviço:
+
+- O cliente deve ser capaz de visualizar o status do serviço em tempo real.
+- O status do serviço deve ser atualizado corretamente na aplicação móvel.
+
+**2.** Adicionar um novo serviço:
+
+- O funcionário da oficina deve ser capaz de adicionar um novo serviço ao veículo do cliente.
+- O status do serviço deve ser atualizado corretamente na aplicação web.
+
+**3.** Enviar orçamento para o cliente:
+
+- O funcionário da oficina deve ser capaz de gerar um orçamento para o serviço do veículo do cliente.
+- O orçamento deve ser enviado com sucesso para o cliente através do aplicativo móvel.
+- O cliente deve ser capaz de visualizar o orçamento recebido corretamente.
+
  
 ## Ferramentas de Testes (Opcional)
 
