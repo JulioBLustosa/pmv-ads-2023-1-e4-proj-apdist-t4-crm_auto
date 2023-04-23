@@ -7,21 +7,22 @@ using CRMobil.Interfaces;
 
 namespace CRMobil.Services
 {
-    public class UserService : IUserService
+    public class UsuariosService : IUsuariosService
     {
-        private readonly IMongoCollection<User> _userServiceCollection;
+        private readonly IMongoCollection<Usuarios> _userServiceCollection;
+        
         protected readonly ILogger _logger;
 
-        public UserService(IOptions<CnnStoreDatabaseSettings> serviceCollection)
+        public UsuariosService(IOptions<CnnStoreDatabaseSettings> serviceCollection)
         {
             var mongoCollection = new MongoClient(serviceCollection.Value.ConnectionString);
 
             var mongoDatabase = mongoCollection.GetDatabase(serviceCollection.Value.DatabaseName);
 
-            _userServiceCollection = mongoDatabase.GetCollection<User>("User");
+            _userServiceCollection = mongoDatabase.GetCollection<Usuarios>("Usuarios");
         }
 
-        public async Task<string> CreateUser(User userModel)
+        public async Task<string> CreateUser(Usuarios userModel)
         {
             try
             {
@@ -38,30 +39,28 @@ namespace CRMobil.Services
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Falha: {nameof(UserService)}; {nameof(CreateUser)}; {ex.Message};");
+                _logger.LogError($"Falha: {nameof(UsuariosService)}; {nameof(CreateUser)}; {ex.Message};");
             }
 
             return $"Usuario '{userModel.Nome_Usuario}' cadastrado com sucesso";
         }
 
-        public async Task<List<User>> GetAsync()
+        public async Task<List<Usuarios>> GetAsync()
         {
             return await _userServiceCollection.Find(_ => true).ToListAsync();
         }
 
-        public async Task<User?> GetAsync(string userName, string password)
+        public async Task<Usuarios> Login(string userName, string userPassword)
         {
-            var usuario = new User();
+            var usuario = new Usuarios();
             usuario = await _userServiceCollection.Find(x => x.Nome_Usuario == userName).FirstOrDefaultAsync();
 
-            if (SecurePasswordHasher.Verify(password, usuario.Senha))
+            if (SecurePasswordHasher.Verify(userPassword, usuario.Senha))
             {
                 return usuario;
             }
 
             return null;
-        }
-            
-        
+        }        
     }
 }

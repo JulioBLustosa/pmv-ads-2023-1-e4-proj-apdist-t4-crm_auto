@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CRMobil.Entities.Usuarios
 {
-    public class User
+    public class Usuarios
     {
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]

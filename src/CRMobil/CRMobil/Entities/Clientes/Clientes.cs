@@ -1,9 +1,10 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using CRMobil.Entities.Clientes;
+using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations;
 
 namespace CRMobil.Entities.Cliente
 {
-    public class Cliente
+    public class Clientes
     {
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
@@ -36,8 +37,9 @@ namespace CRMobil.Entities.Cliente
         [BsonElement("cep")]
         public string Cep { get; set; }
 
-        //[BsonElement("logradouro")]
-        //public string Logradouro { get; set; }
+        [BsonElement("logradouro")]
+        
+        public string Logradouro { get; set; }
 
         [BsonElement("numero")]
         public string Numero { get; set; }

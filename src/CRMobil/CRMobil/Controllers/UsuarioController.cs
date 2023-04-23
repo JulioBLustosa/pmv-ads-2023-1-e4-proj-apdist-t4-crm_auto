@@ -1,7 +1,7 @@
 ﻿using CRMobil.Entities.Cliente;
 using CRMobil.Entities.Usuarios;
+using CRMobil.Interfaces;
 using CRMobil.Services;
-using CRMobil.Services.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -14,19 +14,20 @@ namespace CRMobil.Controllers
     [Authorize]
     [ApiController]
     [Route("api/[controller]")]
-    public class UserController : ControllerBase
+    public class UsuarioController : ControllerBase
     {
-        private readonly UserService _userService;
-        public UserController(UserService userService)
+        private readonly IUsuariosService _userService;
+
+        public UsuarioController(IUsuariosService userService)
         {
             _userService = userService;
         }
 
         [AllowAnonymous]
         [HttpPost, Route("login")]
-        public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] User userModel)
+        public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] Usuarios userModel)
         {
-            var user = await _userService.GetAsync(userModel.Nome_Usuario, userModel.Senha);
+            var user = await _userService.Login(userModel.Nome_Usuario, userModel.Senha);
 
             if (user == null)
             {
@@ -40,7 +41,7 @@ namespace CRMobil.Controllers
 
         [HttpPost]
         [Route("create")]
-        public async Task<ActionResult<dynamic>> CreateUser([FromBody] User userModel)
+        public async Task<ActionResult<dynamic>> CreateUser([FromBody] Usuarios userModel)
         {
             try
             {

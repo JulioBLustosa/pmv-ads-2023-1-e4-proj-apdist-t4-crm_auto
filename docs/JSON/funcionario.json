@@ -1,204 +1,239 @@
 [
     {
         "id_funcionario": "1",
+		"cpf": "99999999999",
         "nome": "josé alves",
         "funcao": "mecânico",
         "id_oficina": "1"
     },
     {
         "id_funcionario": "2",
+		"cpf": "99999999999",
         "nome": "vania maria",
         "funcao": "recepcionista",
         "id_oficina": "1"
     },
     {
         "id_funcionario": "4",
+		"cpf": "99999999999",
         "nome": "ricardo moura",
         "funcao": "mecânico",
         "id_oficina": "1"
     },
     {
         "id_funcionario": "5",
+		"cpf": "99999999999",
         "nome": "vinicius duarte",
         "funcao": "supervisor",
         "id_oficina": "1"
     },
     {
         "id_funcionario": "6",
+		"cpf": "99999999999",
         "nome": "jessica oliveira",
         "funcao": "gerente de serviços",
         "id_oficina": "1"
     },
     {
         "id_funcionario": "8",
+		"cpf": "99999999999",
         "nome": "bruno carvalho",
         "funcao": "recepcionista",
         "id_oficina": "2"
     },
     {
         "id_funcionario": "10",
+		"cpf": "99999999999",
         "nome": "guilherme santana",
         "funcao": "mecânico",
         "id_oficina": "2"
     },
     {
         "id_funcionario": "11",
+		"cpf": "99999999999",
         "nome": "breno lacerda",
         "funcao": "gerente geral",
         "id_oficina": "1"
     },
     {
         "id_funcionario": "12",
+		"cpf": "99999999999",
         "nome": "tiago cardoso",
         "funcao": "gerente de serviços",
         "id_oficina": "2"
     },
     {
         "id_funcionario": "14",
+		"cpf": "99999999999",
         "nome": "gabriela lacerda",
         "funcao": "mecânica",
         "id_oficina": "2"
     },
     {
         "id_funcionario": "16",
+		"cpf": "99999999999",
         "nome": "laura fernandes",
         "funcao": "gerente de oficina",
         "id_oficina": "2"
     },
     {
         "id_funcionario": "18",
+		"cpf": "99999999999",
         "nome": "luana silva",
         "funcao": "auxiliar de limpeza",
         "id_oficina": "2"
     },
     {
         "id_funcionario": "58",
+		"cpf": "99999999999",
         "nome": "eder sousa",
         "funcao": "gerente",
         "id_oficina": "1"
     },
     {
         "id_funcionario": "75",
+		"cpf": "99999999999",
         "nome": "lucas gonçalves",
         "funcao": "mecânico",
         "id_oficina": "2"
     },
     {
         "id_funcionario": "76",
+		"cpf": "99999999999",
         "nome": "eduardo esteves",
         "funcao": "mecânico",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "77",
+		"cpf": "99999999999",
         "nome": "lorenzo pires",
         "funcao": "recepcionista",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "79",
+		"cpf": "99999999999",
         "nome": "felipe moura",
         "funcao": "gerente de serviços",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "80",
+		"cpf": "99999999999",
         "nome": "juliano vale",
         "funcao": "gerente geral",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "81",
+		"cpf": "99999999999",
         "nome": "simone lourenço",
         "funcao": "auxiliar de limpeza",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "82",
+		"cpf": "99999999999",
         "nome": "marcela belluci",
         "funcao": "mecânica",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "83",
+		"cpf": "99999999999",
         "nome": "judite cordeiro",
         "funcao": "auxiliar",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "84",
+		"cpf": "99999999999",
         "nome": "manuela menezes",
         "funcao": "recepcionista",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "85",
+		"cpf": "99999999999",
         "nome": "samuel albuquerque",
         "funcao": "mecânico",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "86",
+		"cpf": "99999999999",
         "nome": "oscar ventura",
         "funcao": "mecânico",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "87",
+		"cpf": "99999999999",
         "nome": "iago assunção",
         "funcao": "mecânico",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "88",
+		"cpf": "99999999999",
         "nome": "suzana saraiva",
         "funcao": "recepcionista",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "89",
+		"cpf": "99999999999",
         "nome": "priscila lourenço",
+		"cpf": "99999999999",
         "funcao": "gerente de serviços",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "90",
+		"cpf": "99999999999",
         "nome": "giovane fagundes",
         "funcao": "auxiliar de limpeza",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "91",
+		"cpf": "99999999999",
         "nome": "lavínia vaz",
         "funcao": "gerente geral",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "92",
+		"cpf": "99999999999",
         "nome": "jorge flores",
         "funcao": "mecânico",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "94",
+		"cpf": "99999999999",
         "nome": "igor paiva",
         "funcao": "gerente de serviços",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "95",
+		"cpf": "99999999999",
         "nome": "adriana barroso",
         "funcao": "auxiliar",
         "id_oficina": "3"
     },
     {
         "id_funcionario": "96",
+		"cpf": "99999999999",
         "nome": "fátima dias",
         "funcao": "gerente geral",
         "id_oficina": "4"
     },
     {
         "id_funcionario": "98",
+		"cpf": "99999999999",
         "nome": "júlia rocha",
         "funcao": "mecânica",
         "id_oficina": "2"
