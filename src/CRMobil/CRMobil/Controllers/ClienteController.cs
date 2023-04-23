@@ -1,5 +1,6 @@
 ﻿using CRMobil.Entities.Cliente;
 using CRMobil.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.Hosting;
 using MongoDB.Bson;
@@ -8,8 +9,9 @@ using MongoDB.Bson;
 
 namespace CRMobil.Controllers
 {
-    [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
+    [Route("api/[controller]")]
     public class ClienteController : ControllerBase
     {
         private readonly ClienteService _clienteService;
@@ -21,36 +23,82 @@ namespace CRMobil.Controllers
 
         // GET: api/<ClienteController>
         [HttpGet]
-        public IEnumerable<Clientes> RecuperaClientes([FromBody] int skip = 0, [FromBody] int take = 20)
+        public async Task<List<Cliente>> RecuperaClientes()
         {
-            var listaCliente = _clienteService.GetAsync();
+            var listaCliente = await _clienteService.GetAsync();
 
             return listaCliente;
         }
 
         // GET api/<ClienteController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<Cliente>> RecuperaClientePorId(string id)
         {
-            return "value";
+            var cliente = await _clienteService.GetAsync(id);
+
+            if (cliente is null)
+            {
+                return NotFound();
+            }
+
+            return cliente;
+        }
+
+        [HttpGet("{cpf_cnpj}")]
+        [AllowAnonymous]
+        public async Task<ActionResult<Cliente>> RecuperaClientePorCpfCnpj(string cpf_cnpj)
+        {
+            var cliente = await _clienteService.GetCpfCnpjAsync(cpf_cnpj);
+
+            if (cliente is null)
+            {
+                return NotFound();
+            }
+
+            return cliente;
         }
 
         // POST api/<ClienteController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> SalvarCliente(Cliente newCliente)
         {
+            await _clienteService.CreateAsync(newCliente);
+
+            return CreatedAtAction(nameof(SalvarCliente), new { id = newCliente.Id_Cliente }, newCliente);
         }
 
         // PUT api/<ClienteController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<ActionResult> AtualizaCliente(string id, Cliente updateCliente)
         {
+            var cliente = await _clienteService.GetAsync(id);
+
+            if (cliente is null)
+            {
+                return NotFound();
+            }
+            
+            updateCliente.Id_Cliente = cliente.Id_Cliente;
+
+            await _clienteService.UpdateAsync(id, updateCliente);
+
+            return NoContent();
         }
 
         // DELETE api/<ClienteController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<ActionResult> ExcluiCliente(string id)
         {
+            var cliente = await _clienteService.GetAsync(id);
+
+            if (cliente is null)
+            {
+                return NotFound();
+            }
+
+            await _clienteService.RemoveAsync(id);
+
+            return NoContent();
         }
     }
 }
