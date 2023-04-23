@@ -7,7 +7,7 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.-->
 
 
-- Plano de testes usado para testar o sistema _CRMOBIL_. Ele inclui uma lista de cenários de testes que foram selecionados para avaliar diferentes funcionalidades da aplicação. Além disso, o plano inclui informações sobre as ferramentas utilizadas para realizar os testes, bem como sobre o grupo de usuários escolhido para participar dos testes. Essa abordagem ajuda a garantir que a aplicação esteja funcionando corretamente e atenda aos requisitos estabelecidos. O uso de ferramentas como Selenium e Postman pode melhorar a eficiência e a precisão dos testes, permitindo que os desenvolvedores e testadores encontrem e corrijam problemas com mais rapidez.
+- Plano de testes de software usado para testar o sistema _CRMOBIL_. Ele inclui uma lista de cenários de testes que foram selecionados para avaliar diferentes funcionalidades da aplicação. Além disso, o plano inclui informações sobre as ferramentas utilizadas para realizar os testes, bem como sobre o grupo de usuários escolhido para participar dos testes. Essa abordagem ajuda a garantir que a aplicação esteja funcionando corretamente e atenda aos requisitos estabelecidos. O uso de ferramentas como Selenium e Postman pode melhorar a eficiência e a precisão dos testes, permitindo que os desenvolvedores e testadores encontrem e corrijam problemas com mais rapidez.
 
 
 **Funcionalidades Avaliadas**
